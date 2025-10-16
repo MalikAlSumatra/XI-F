@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>GALERI</title>
+    <link rel="stylesheet" href="galeri.css">
+</head>
+<body>
+    <div class="sidenav">
+        <h2>Menu</h2>
+        <a href="homepage.html">Tentang Kita</a>
+        <a href="struktur kelas.html">Struktur Kelas</a>
+        <a href="data siswa.html">Data Siswa</a>
+        <a href="kepengurusan.html">Struktur Kepengurusan</a>
+        <a href="galeri.html">Galeri Kelas</a>
+	</div>
+<div class="main">
+    <h1>Gallery of XI-F</h1>
+<p class="gallery-description">
+    Halaman ini menyajikan dokumentasi visual berbagai kegiatan kelas XI-F, meliputi perayaan hari besar. Setiap momen diabadikan sebagai kenangan berharga dalam perjalanan kami selama di SMA Negeri 88 Jakarta.
+</p>
+
+    <div class="gallery-section">
+        <h2 onclick="toggleGallery(this)">14 Agustus 2025</h2>
+        <div class="image-group">
+            <img src="GALERI/pramuk1.jpeg">
+            <img src="GALERI/pramuk2.jpeg">
+            <img src="GALERI/pramuk3.jpeg">
+            <img src="GALERI/pramuk4.jpeg">
+            <img src="GALERI/pramuk5.jpeg">
+            <img src="GALERI/pramuk6.jpeg">
+            <img src="GALERI/pramuk7.jpeg">
+            <img src="GALERI/pramuk8.jpeg">
+            <img src="GALERI/pramuk9.jpeg">
+            <img src="GALERI/pramuk10.jpeg">
+            <img src="GALERI/pramuk11.jpeg">
+            <img src="GALERI/pramuk12.jpeg">
+            <img src="GALERI/pramuk13.jpeg">
+            <img src="GALERI/pramuk14.jpeg">
+        </div>
+    </div>
+
+    <div class="gallery-section">
+        <h2 onclick="toggleGallery(this)">17 Agustus 2025</h2>
+        <div class="image-group">
+            <img src="GALERI/agus1.jpeg">
+            <img src="GALERI/agus2.jpeg">
+            <img src="GALERI/agus3.jpeg">
+            <img src="GALERI/agus4.jpeg">
+            <img src="GALERI/agus5.jpeg">
+        </div>
+    </div>
+
+    <script>
+        function toggleGallery(header) {
+            const section = header.nextElementSibling;
+            section.classList.toggle('open');
+        }
+    </script>
+</div>
+</body>
+</html>

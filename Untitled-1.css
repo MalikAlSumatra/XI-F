@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+.sidenav {
+    height: 100vh;
+    width: 220px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom, #EEAEDF, #94ADE9);
+    padding-top: 30px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidenav h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidenav a {
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.sidenav a:hover {
+    background-color:rgba(0, 0, 0, 0.25);
+}
+
+.main {
+    margin-left: 240px;
+    padding: 20px;
+}
+
+h1 {
+    color: #EEAEDF;
+    margin-top: 0;
+}
+
+h2 {
+    color: #94ADE9;
+    margin-top: 40px;
+}
+
+p {
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    margin-top: 60px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+    max-width: 800px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.footer-section h3 {
+    color: #145DA0;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-section a {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #2e8bc0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #0c2d48;
+    text-decoration: underline;
+}

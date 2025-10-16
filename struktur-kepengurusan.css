@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+h1 {
+    color: #EEAEDF;
+}
+
+h3 {
+    color: #94ADE9;
+    font-size:150%;
+}
+
+.profile-tables {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+    color:white;
+}
+
+.profile-card {
+    background-color: #ffffff;
+    border: 2px solid #dbe9f4;
+    border-radius: 8px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    background: linear-gradient(to right, #EEAEDF, #94ADE9);
+}
+
+.profile-card img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-card td {
+    vertical-align: top;
+    padding: 5px 0;
+}
+
+.profile-card th {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 6px 6px 0 0;
+}
+
+.side-by-side {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom:40px;
+    color:white;
+}
+
+.subject-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    margin-bottom:20px;
+}
+
+.subject-table td {
+    border: 1px solid #d0d0d0;
+    padding: 10px;
+}
+
+.gradient-header {
+    background: linear-gradient(to right, #CF9EF0, #F08D8D, #E8BC7D);
+}
+
+.gradient-header th {
+    background-color: transparent;
+    color: white;
+    padding: 12px 16px;
+    text-align: left;
+}
+
+.main {
+    margin-left: 240px;
+    padding: 20px;
+}
+
+.sidenav {
+    height: 100vh;
+    width: 220px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom, #EEAEDF, #94ADE9);
+    padding-top: 30px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidenav h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidenav a {
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.sidenav a:hover {
+    background-color:rgba(0, 0, 0, 0.25);
+}
