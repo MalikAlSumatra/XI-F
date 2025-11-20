@@ -6,21 +6,29 @@
         <link rel="stylesheet" href="data.css">
     </head>
     <body>
-      <div class="sidenav">
-        <h2>Menu</h2>
-        <a href="homepage.html">Tentang Kita</a>
-        <a href="struktur kelas.html">Struktur Kelas</a>
-        <a href="data siswa.html">Data Siswa</a>
-        <a href="kepengurusan.html">Struktur Kepengurusan</a>
-        <a href="galeri.html">Galeri Kelas</a>
-	</div>
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">
+      Menu
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="homepage.html">Tentang Kita</a>
+      <a href="struktur kelas.html">Program Kerja</a>
+      <a href="data siswa.html">Data Siswa</a>
+      <a href="kepengurusan.html">Struktur Kepengurusan</a>
+      <a href="galeri.html">Galeri Kelas</a>
+    </div>
+  </div>
+</div>
+
       <div class="main">
       <h1>Data Siswa XI-F</h1>
         <p>Halaman ini mengandung data dari siswa-siswa kelas XI-F, meliputi nomor telpon setiap siswa</p><br>
         <table class="subject-table"><thead>
   <tr class="gradient-header">
-    <th>Absen</th>
-    <th>Nama</th>
+    <th>No. Absen</th>
+    <th>Nama Siswa</th>
     <th>No. Telpon</th>
   </tr></thead>
   <tbody>
